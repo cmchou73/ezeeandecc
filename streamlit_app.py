@@ -6,10 +6,10 @@ import json
 FROM_ADDRESS = {
     "countryCode": "US",
     "stateCode": "CA",
-    "city": "San Francisco",
-    "addressLine1": "215 Clayton St.",
-    "addressLine2": "1092,IFC",
-    "zipCode": "94117"
+    "city": "Walnut",
+    "addressLine1": "20632 Currier Rd.",
+    "addressLine2": "",
+    "zipCode": "91789"
 }
 
 # API endpoints and keys (replace with actual values)
