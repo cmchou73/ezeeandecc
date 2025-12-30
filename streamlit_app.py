@@ -113,7 +113,8 @@ for i in range(num_parcels):
             "isCod": is_cod,
             "codAmount": cod_amount,
             "paymentMethod": payment_method,
-            "dryIceWeight": dry_ice_weight
+            "dryIceWeight": dry_ice_weight,
+            "isResidential": true
         }
     }
     parcels.append(parcel)
