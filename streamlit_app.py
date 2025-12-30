@@ -73,12 +73,13 @@ to_address = {
     "city": to_city,
     "addressLine1": to_address1,
     "addressLine2": to_address2,
-    "zipCode": to_zip
+    "zipCode": to_zip,
+    "isResidential": true
 }
 
 # Carrier and Service (example: fedex, fedex_2_day; make dropdowns if multiple options)
 carrier_code = st.text_input("Carrier Code (e.g., fedex):", value="fedex")
-service_code = st.text_input("Service Code (e.g., fedex_2_day):", value="fedex_2_day")
+service_code = st.text_input("Service Code (e.g., fedex_2_day):", value="fedex_home_delivery")
 
 # Parcels input (support multiple boxes)
 st.header("Parcels")
@@ -113,8 +114,7 @@ for i in range(num_parcels):
             "isCod": is_cod,
             "codAmount": cod_amount,
             "paymentMethod": payment_method,
-            "dryIceWeight": dry_ice_weight,
-            "isResidential": true
+            "dryIceWeight": dry_ice_weight
         }
     }
     parcels.append(parcel)
