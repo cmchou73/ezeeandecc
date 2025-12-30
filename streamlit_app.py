@@ -73,8 +73,9 @@ to_address = {
     "city": to_city,
     "addressLine1": to_address1,
     "addressLine2": to_address2,
-    "zipCode": to_zip,
-    "isResidential": true
+    "isResidential": true,
+    "zipCode": to_zip
+
 }
 
 # Carrier and Service (example: fedex, fedex_2_day; make dropdowns if multiple options)
